@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Helvetica;
 }
 
 .header {
@@ -10,21 +11,26 @@ body {
     background-color: #1F2937;
 }
 
-.left-header, .right-header {
-    display: flex;
-    color: white;
-    align-items: center;
-    padding: 20px;
-    gap: 20px;
-    font-size: 24px;
+.left-header {
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin: auto;
+    margin-left: 170px;
 }
 
-.title {
-    font-size: 48px;
+.right-header {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 50px;
+    padding: 30px;
+    gap: 20px;
 }
 
-a {
+.right-header a {
     color: white;
     text-decoration: none;
 }
@@ -34,51 +40,99 @@ a {
     justify-content: space-around;
     background-color: #1F2937;
     color: white; 
-    padding: 20px;
+    padding: 30px;
+    padding-bottom: 60px;
 }
 
-img[src="./images/cat1.jpeg"] {
+.title {
+    font-size: 44px;
+    margin: 0;
+}
+
+.header-content-left {
+    width: 400px;
+    margin-left: 80px;
+}
+
+.header-content-left p {
+    margin-bottom: 20px;
+}
+
+.headerPhoto {
     height: 200px;
     width: 350px;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
+    margin-right: 40px;
 }
 
-.ic-header {
+button {
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: dodgerblue;
+    padding: 8px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    border-radius: 8px;
+}
+
+.hero-content {
+    margin-bottom: 80px;
+}
+
+.hero-header {
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 
 }
 
-.info-imgs {
+.heroImages {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 80px;
     
 }
 
-.info-img { 
-    border: 2px dodgerblue;
-    border-radius: 2px;
-}
-
-img {
-    height: 100px;
-    width: 100px;
-    border: 4px solid dodgerblue;
+.hero-image {
+    height: 140px;
+    width: 140px;
+    border: 4px solid #1F2937;
     border-radius: 10px;
 }
 
-
+.heroPic {
+    height: 140px;
+    width: 140px;
+}
 
 .quote-content {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     text-align: center;
 }
 
-.quote-caption {
-    font-size: 18px;
-    font-style: normal;
+.quote {
+    margin: auto;
+    text-align: left;
+    font-style: italic;
+    font-weight: lighter;
+    width: 550px;
+    height: 170px;
+    margin-top: 80px;
+}
+
+.quote-author {
+    margin: auto;
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 80px;
+    margin-right: 360px;
 }
 
 .footer-content {
